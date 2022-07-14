@@ -1,0 +1,89 @@
+/* Presentation container */
+#presentationDiv {
+  width: 76%;
+  height: 380px;
+  position: relative;
+  margin-top: -62px;
+  margin-left: 12%;
+  margin-right: 12%;
+  overflow: hidden;
+  background: linear-gradient( to right, rgb(3, 105, 3) 0%, rgb(13, 81, 13) 100% );
+  font-family: "Roboto", sans-serif; color: white;
+ }
+ /* Start and restart button */
+ #presentationDiv span.startP {
+   display: inline-block; padding: 10px; margin-top: 15%; margin-left: 37%; cursor: pointer;
+   background: #7dfff366; font-size: 30px; font-weight: bold; border-radius: 5px;
+ }
+ #presentationDiv span.startP.restart {
+   position: absolute; right: 10px; top: 10px; width: 20px; height: 20px; padding: 0;
+   margin-top: 0; font-size: 0; z-index: 999; background: url(../images/reload.png) no-repeat center;
+ }
+ #presentationDiv span.startP:not(.restart):hover { background: black; }
+ /* Close button */
+ #presentationDiv .closeP { width: 20px; height: 20px; position: absolute; right: 10px; bottom: 10px;
+  z-index: 99; background: url(../images/close.png) no-repeat center; display: none; cursor: pointer; }
+ /* Slide */
+ #presentationDiv .slide { height: 500px; width: 100%; overflow: hidden; position: absolute; left: 0; top: 0; }
+ /* Common classes and style */
+ #presentationDiv .slide * { position: absolute; font-weight: 300; margin: 0; padding: 0; }
+ #presentationDiv h1 { font-size: 45px; }
+ #presentationDiv h2 { font-size: 35px; }
+ #presentationDiv h3 { font-size: 30px; }
+ #presentationDiv h4 { font-size: 20px; }
+ #presentationDiv .center { text-align: center; }
+ #presentationDiv .fullWidth { width: 100%; }
+ #presentationDiv .noOpacity { opacity: 0; }
+ /* Slide 1 */
+ #presentationDiv .companyName { left: 100px; top: -60px; }
+ #presentationDiv .subTitle { top: 275px; left: -370px; }
+ #presentationDiv .chrome { right: 224px; bottom: -140px; width: 70px;  }
+ #presentationDiv .firefox { bottom: 290px; right: -1000px; width: 110px;  }
+ #presentationDiv .safari { right: 226px; top: -140px; width: 100px; }
+ /* Slide 2 */
+ #presentationDiv .aboutUs { left: -600px; top: 50px; width: 640px; }
+ #presentationDiv .professional { top: 125px; right: 0px; font-size: 25px; }
+ #presentationDiv .aboutimg { left: 320px; bottom: -350px; }
+ /* Slide 3 */
+ #presentationDiv .servicesTitle { left: 100px; top: -60px; }
+ #presentationDiv .services { padding-left: 40px;
+  background: url(../images/check.png) no-repeat left center; left: -360px; }
+ #presentationDiv .services.ns { top: 150px; }
+ #presentationDiv .services.dsam { top: 190px; }
+ #presentationDiv .services.cs { top: 230px; }
+ #presentationDiv .services.dbs { top: 270px; }
+ #presentationDiv .services.ic { top: 310px; }
+ #presentationDiv .services.smc { top: 350px; }
+ #presentationDiv .services.rs { top: 390px; }
+ #presentationDiv .servicesImg1 { width: 170px; right: 160px; top: 90px; }
+ #presentationDiv .servicesImg2 { width: 121px; right: 131px; top: 272px; }
+ #presentationDiv .servicesImg3 { width: 150px; right: 272px; top: 242px; }
+ /* Slide 4 */
+ #presentationDiv .ourTeam { left: -600px; top: 50px; width: 300px; }
+ #presentationDiv .emp { width: 150px; border-radius: 80px; top: 150px; opacity: 0; }
+ #presentationDiv .emp.emp1 { left: 66px;}
+ #presentationDiv .emp.emp2 { left: 266px; }
+ #presentationDiv .emp.emp3 { left: 466px; }
+ #presentationDiv .emp.emp4 { left: 666px; }
+ #presentationDiv .empName { width: 196px; text-align: center; top: 320px; opacity: 0; }
+ #presentationDiv .empName1 { left: 55px; }
+ #presentationDiv .empName2 { left: 266px; }
+ #presentationDiv .empName3 { left: 466px; }
+ #presentationDiv .empName4 { left: 666px; }
+ #presentationDiv .empTitle { width: 196px; text-align: center; top: 350px; opacity: 0; }
+ #presentationDiv .empTitle1 { left: 55px; }
+ #presentationDiv .empTitle2 { left: 266px; }
+ #presentationDiv .empTitle3 { left: 466px; }
+ #presentationDiv .empTitle4 { left: 666px; }
+ /* Slide 4 */
+ #presentationDiv .contactUs { width: 250px; top: 50px; right: 370px; }
+ #presentationDiv .call { left: -200px; top: 140px; }
+ #presentationDiv .skype { left: -200px; top:210px; }
+ #presentationDiv .youtube { left: -200px; top:300px; }
+ #presentationDiv .fb { left: -200px; top:360px; }
+ #presentationDiv .calltext { left: 200px; top:150px; }
+ #presentationDiv .skypetext { left: 200px; top:220px; }
+ #presentationDiv .youtubetext { left: 200px; top:310px; }
+ #presentationDiv .fbtext { left: 200px; top:381px; }
+ #presentationDiv .smile { bottom: -350px; right: 195px; }
+ 
